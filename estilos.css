@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.carousel-inner{
+    max-height: 42rem;
+}
+
+footer{
+    bottom: 0 !important;
+}
+
+#reserva1{
+    height: 600px;
+    background-color: #282a2d;
+}
+#h21{
+    padding-top: 150px;
+}
+
+.section1{
+    height: 600px;
+    padding: 60px;
+    padding-left: 50px;
+}
+.section2{
+    height: 780px;
+}
+#button{
+    margin-left: 300px;
+}
+button:hover{
+    color: black;
+}
+#bar1{
+margin-left: 250px;
+
+}
+.section3{
+    height: 800px;
+}
+
+
+
+
+
+
+@media (max-width:768px) {
+    #intro{
+        width: 90%  !important ;
+    }
+}
