@@ -39,13 +39,72 @@ margin-left: 250px;
 
 }
 .section3{
-    height: 800px;
+    height: 600px;
+    width: 100%;
+}
+#contact{
+    background-color: #3c3d3f;
+
+}
+.contact-left{
+    contain: layout;
+}
+
+.contact-right{
+    flex-direction: initial;
+}
+.contact-section{
+    padding: 1rem 0rem 1rem 0rem;
+    font-size: 2.8rem;
+    font-weight: 500;
+}
+.contact-left .paragraph{
+    padding: 0rem 3rem 0rem 0rem;
+    font-size: 1rem;
+    line-height: 1.2;
+
+}
+#contact-form{
+    margin-top: 40px;
+
+}
+#contact-form, .form-control{
+    background: #6e6f72;
+    border: none;
+    border-radius: .3rem;
+    box-shadow: none;
+    font-weight: 300;
+    outline: medium none;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    line-height: 1.2;
+    height: auto;
+    width: 100%;
+    color: bisque;
+    margin-bottom: 1rem;
+    transition: all .2s ease-in-out;
+    text-align: left;
+
 }
 
 
+#valid-form{
+        font-size: 1.5em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        padding: 10px 20px;
+        border-radius: 10px;
+        border: 1px solid rgb(75, 67, 35);
+        box-shadow: 0.125rem 0.125rem 0.625rem rgb(65, 55, 23);
+        color: aliceblue;
+        background-color: rgb(25, 21, 21);
+    
+}
+.imagenform{
+        bottom: 50%;
 
 
-
+}
 
 @media (max-width:768px) {
     #intro{
